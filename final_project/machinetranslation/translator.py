@@ -31,7 +31,7 @@ def english_to_french(english_text):
 def french_to_english(french_text):
     '''uses IBM watson to translate'''
     if french_text is None:
-        return 'l entrée est nulle'
+        return 'l entree est nulle'
     authenticator = IAMAuthenticator(apikey)
     language_translator = LanguageTranslatorV3(
         version='2018-05-01',

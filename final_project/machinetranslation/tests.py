@@ -9,6 +9,6 @@ class TestTranslator(unittest.TestCase):
         self.assertEqual(english_to_french('omelette'),'Omelette')
         self.assertEqual(french_to_english('Bonjour'),'Hello')
         self.assertEqual(english_to_french(None),'Input is null')
-        self.assertEqual(french_to_english(None),'l entrée est nulle')
+        self.assertEqual(french_to_english(None),'l entree est nulle')
 if __name__ == "__main__":
     unittest.main()
